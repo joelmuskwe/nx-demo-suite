@@ -15,7 +15,14 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@demo-suite/dmx/auth/auth-feature-shell": [
+        "libs/dmx/auth/auth-feature-shell/src/index.ts"
+      ],
+      "@demo-suite/dmx/auth/auth-data-access": [
+        "libs/dmx/auth/auth-data-access/src/index.ts"
+      ]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

@@ -18,5 +18,19 @@
       }
     }
   },
-  "projects": {}
+  "projects": {
+    "demo-web": {
+      "tags": ["scope:shared", "type:app", "platform:web"]
+    },
+    "demo-web-e2e": {
+      "tags": [],
+      "implicitDependencies": ["demo-web"]
+    },
+    "dmx-auth-auth-feature-shell": {
+      "tags": ["scope:shared", "type:feature"]
+    },
+    "dmx-auth-auth-data-access": {
+      "tags": ["scope:shared", "type:data-access"]
+    }
+  }
 }
